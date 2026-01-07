@@ -1,6 +1,6 @@
 class User:
-  def __init__(self, nome, ativo=True):
-    self.nome = nome
+  def __init__(self, name, ativo=True):
+    self.name = name
     self.ativo = ativo
 
   def status(self):
